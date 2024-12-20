@@ -1,0 +1,160 @@
+body{
+    font-family: "Oswald", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.basquetbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #194D87;
+    color: #39C4E1;
+    height: 55px;
+}
+
+.basquetbol p{
+    font-size: 26px;
+}
+
+.spalding1 {
+    background: #FAFDF4;
+    border-radius: 7.01px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 2px 4px 10px #000000;
+    
+}
+
+.spalding1 p{
+    margin-bottom: 10px;
+}
+.spalding1 button{
+    background: #076B94;
+    color: #E0F7C6;
+    border: none;
+    border-radius: 9.51px;
+    padding: 10.78px 10.78px
+}
+
+
+
+.Basketball1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #194D87;
+        color: #39C4E1;
+        height: 55px;
+}
+
+.Basketball1 p {
+    font-size: 26px;
+}
+
+.Basketball {
+    margin-bottom: 20px;
+    background: #58AFD2;
+    border-radius: 8px;
+    height: 180px;
+    width: 226px;
+    text-align: center;
+    color: #4A1029;
+}
+
+.Futbol {
+    margin-bottom: 20px;
+    background: #16FB3D;
+    border-radius: 8px;
+    height: 180px;
+    width: 226px;
+    text-align: center;
+    color: #125649;
+}
+.container-basketball {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.container-deportes {
+    font-size: 25.33px
+}
+
+.Voleyball {
+    margin-bottom: 20px;
+    background: #16FB3D;
+    border-radius: 8px;
+    height: 180px;
+    width: 226px;
+    text-align: center;
+    color: #86254F;
+}
+
+.Trekking {
+    margin-bottom: 20px;
+    background: #69D340;
+    border-radius: 8px;
+    height: 180px;
+    width: 226px;
+    text-align: center;
+    color: #312C0E;
+}
+
+.presentacion {
+    width: 425px;
+    height: 600px;
+}
+
+/* From Uiverse.io by Madflows */ 
+.boton {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 0px; 
+    bottom: 200px;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }
+  
+
+.inicio {
+    position: ;
+}
